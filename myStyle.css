@@ -1,0 +1,29 @@
+#container{
+  margin-left: 60px;
+}
+#header{
+  background-color: lightgray;
+}
+
+h1{
+  color: blue;
+}
+.myFontColor{
+  color: green;
+}
+.myList{
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  border-style: solid;
+}
+.blueWord{
+  color: blue;
+}
+#footer{
+  background-color: gray;
+  height: 100px;
+  color: white;
+  text-align: center;
+}

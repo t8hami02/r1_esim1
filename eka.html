@@ -3,44 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>Sivu1</title>
+    <link rel="stylesheet" href="myStyle.css">
   </head>
   <body>
-    <h1>Esimerkki</h1>
-    <p>
-      Numeroitu lista
-      <ol>
-        <li>Suomi</li>
-        <li>Ruotsi</li>
-        <li>Norja</li>
-      </ol>
-    </p>
-    <p>
-      <ul>
-        <li>Oulu</li>
-        <li>Helsinki</li>
-        <li>Tampere</li>
-      </ul>
-    </p>
-    <h2>Linkki</h2>
-    <p>
-      Oamk:n www.sivun voit avata <a href="https://www.oamk.fi/fi/">tästä</a>
-      <br>
-      Avaa sivu uuten välilehteen <a href="https://www.oamk.fi/fi/" target="_blank">tästä</a>
-    </p>
-    <h2>Taulukko</h2>
-    <p>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Maa</th> <th>Pääkaupunki</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Suomi</td><td>Helsinki</td></tr>
-          <tr><td>Ruotsi</td><td>Tukholma</td></tr>
-          <tr><td>Norja</td><td>Oslo</td></tr>
-        </tbody>
-      </table>
-    </p>
+    <div id="header">
+      <h2>Tervetuloa!</h2>
+      <p>
+        Tämä on siis esimerkki header-osio
+      </p>
+
+    </div>
+
+    <div id="container">
+      <h1>Esimerkki</h1>
+      <div class="myList">
+        <p>
+          <b>Numeroitu</b> lista
+          <ol>
+            <li>Suomi</li>
+            <li>Ruotsi</li>
+            <li>Norja</li>
+          </ol>
+        </p>
+        <p>
+          Numeroimaton lista
+          <ul>
+            <li>Oulu</li>
+            <li>Helsinki</li>
+            <li>Tampere</li>
+          </ul>
+        </p>
+      </div>
+      <h2 class="myFontColor">Linkki</h2>
+      <p>
+        <span class="blueWord">Oamk</span>:n www.sivun voit avata <a href="https://www.oamk.fi/fi/">tästä</a>
+        <br>
+        Avaa sivu uuten välilehteen <a href="https://www.oamk.fi/fi/" target="_blank">tästä</a>
+      </p>
+      <h2>Taulukko</h2>
+      <p>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Maa</th> <th>Pääkaupunki</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Suomi</td><td>Helsinki</td></tr>
+            <tr><td>Ruotsi</td><td>Tukholma</td></tr>
+            <tr><td>Norja</td><td>Oslo</td></tr>
+          </tbody>
+        </table>
+      </p>
+      </div>
+      <div id="footer">
+        <hr>
+        TVT18SPO ryhmä1 harjoitus.
+    </div>
   </body>
 </html>

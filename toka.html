@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="myJs.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Javascript</h1>
+    <h2>Esimerkki1</h2>
+    <p>
+      Laitetaan Javascript-koodi tiedostoon myJs-js
+    </p>
+    <p>
+      Seuraava painike avaa "popup-ikkunan".
+      <button type="button" onclick="showPopup()">Avaa</button>
+    </p>
+    <h2>Esimerkki2</h2>
+    <p>
+      Kirjoita nimesi:
+      <input type="text" id="myName" name="" value="">
+      <button type="button" onclick="showName()">Lähetä</button>
+    </p>
+    <p id="result">
+      Nimet tulevat tähän: <br>
+    </p>
+    <h2>Esimerkki3 Ajax</h2>
+    <p>
+      Valitse kieli:
+      <button type="button" onclick="loadInfo('fin.html')">FIN</button>
+      <button type="button" onclick="loadInfo('eng.html')">ENG</button>
+    </p>
+    <p>
+      Sama linkeillä: <br>
+      <a href="#" onclick="loadInfo('fin.html')">FIN</a> <br>
+      <a href="#" onclick="loadInfo('eng.html')">ENG</a>
+    </p>
+    <div id="info">
+
+    </div>
+  </body>
+</html>
